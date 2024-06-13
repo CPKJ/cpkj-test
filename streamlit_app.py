@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 # Page title
 st.set_page_config(page_title='Support Ticket Workflow', page_icon='🎫')
-st.title('🎫 Support Ticket Workflow')
+st.title('🎫 Support Ticket Workflow 2')
 st.info('To write a ticket, fill out the form below. Check status or review ticketing analytics using the tabs below.')
 
 
@@ -23,6 +23,7 @@ def generate_issue():
         "Email server downtime",
         "Data backup failure",
         "Login authentication problems",
+        "Login authentication problems again",
         "Website performance degradation",
         "Security vulnerability identified",
         "Hardware malfunction in the server room",
